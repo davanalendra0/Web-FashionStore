@@ -68,12 +68,14 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 80px 100px;
   background-color: #f4f5f7;
   border-radius: 30px;
   margin: 40px 60px;
   position: relative;
+  overflow: hidden;
+  height: 600px;
 }
 
 .hero-text {
@@ -121,10 +123,17 @@ body {
 }
 
 .hero-image img {
-  width: 420px;
+  width: 700px;
   height: auto;
-  object-fit: cover;
-  transform: translateY(-20px);
+  object-fit: contain;
+  margin-left: 80px;
+  display: flex;
+}
+
+.hero-image {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
 }
 
 /* Brand Logos Section */

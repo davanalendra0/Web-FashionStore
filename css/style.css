@@ -6,7 +6,8 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 /* Navbar */
@@ -32,6 +33,10 @@ body {
   height: 30px;
 }
 
+.logo span {
+  cursor: default;
+}
+
 /* Link Navigasi */
 .nav-links {
   display: flex;
@@ -43,7 +48,8 @@ body {
   text-decoration: none;
   color: #111;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Tombol Sign Up */
@@ -88,6 +94,7 @@ body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.2;
   color: #000;
+  cursor: default;
 }
 
 .highlight {
@@ -101,6 +108,9 @@ body {
   margin-top: 20px;
   font-size: 18px;
   color: #333;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  cursor: default;
 }
 
 .shop-btn {
@@ -163,6 +173,7 @@ body {
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 40px;
+  cursor: default
 }
 
 .section-title span {
@@ -170,6 +181,8 @@ body {
   background: #fff100;
   padding: 0 5px;
   border-radius: 4px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
 }
 
 .product-cards {
@@ -202,7 +215,9 @@ body {
 .card-info h3 {
   margin: 12px 0 8px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  cursor: default;
 }
 
 .card-info .explore {
@@ -213,8 +228,15 @@ body {
   font-size: 14px;
 }
 
+.card-info .explore p {
+  cursor: default;
+}
+
 .card-info .explore span {
   font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
 }
 
 /* Section */
@@ -272,8 +294,10 @@ body {
 
 .favourite-content h3 {
   font-size: 1.2rem;
-  font-weight: 600;
   margin-bottom: 10px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  cursor: default;
 }
 
 .explore {
@@ -284,6 +308,150 @@ body {
   font-size: 0.9rem;
 }
 
+.explore span {
+  cursor: default;
+}
+
 .explore .arrow {
   font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Subscribe Section */
+.subscribe-section {
+  background-color: #f1c93b;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.subscribe-section h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  cursor: default;
+}
+
+.subscribe-section p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  cursor: default;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.subscribe-form input {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  width: 250px;
+  font-size: 1rem;
+}
+
+.subscribe-form button {
+  padding: 0.75rem 1.5rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.subscribe-form button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 4rem 2rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-brand h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  cursor: default;
+}
+
+.footer-brand p {
+  margin: 1rem 0;
+  color: #ccc;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  cursor: default;
+}
+
+.footer-socials a {
+  color: black;
+  background: #f1c93b;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  display: inline-flex;
+  font-size: 1rem;
+  transition: background 0.3s;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-socials a:hover {
+  background: #d4ab29;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-links h4 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  cursor: default;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-links a:hover {
+  color: #fff;
 }

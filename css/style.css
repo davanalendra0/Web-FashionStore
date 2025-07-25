@@ -216,3 +216,74 @@ body {
 .card-info .explore span {
   font-size: 18px;
 }
+
+/* Section */
+.products-favourite {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Judul Section */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.section-title .highlight {
+  background-color: #ffeb3b;
+  border-radius: 4px;
+  padding: 0 8px;
+}
+
+/* Card Container */
+.favourite-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Card Style */
+.favourite-card {
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  max-width: 550px;
+  flex: 1 1 300px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.favourite-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+}
+
+/* Content dalam card */
+.favourite-content {
+  padding: 20px;
+}
+
+.favourite-content h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.explore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.explore .arrow {
+  font-size: 1.2rem;
+}

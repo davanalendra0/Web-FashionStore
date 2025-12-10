@@ -3,11 +3,13 @@
 <br>
 <h2>🚀 Fitur dan Bagian Utama:</h2>
 <ul>
-<li>Header Navigasi</li>
-<li>Services: Menampilkan keahlian utama, termasuk UI/UX, Web Design, App Design, dan Graphic Design.</li>
-<li>Projects: Galeri proyek-proyek yang pernah dikerjakan.</li>
-<li>Testimonials: Ulasan dari klien atau rekan kerja.</li>
-<li>Contact: Formulir atau informasi kontak untuk peluang kerja sama.</li>
+<li>Header Navigasi: Berisi logo, tautan navigasi utama, dan tombol Sign Up.</li>
+<li>Hero Section: Slogan utama dengan gambar model dan tombol.</li>
+<li>Brand Section: Menampilkan logo brand mitra.</li>
+<li>New Arrivals: Bagian yang menyoroti kategori pakaian terbaru.</li>
+<li>Products Favourite: Bagian yang menyoroti koleksi populer atau promosi khusus.</li>
+<li>Join Community: Formulir pendaftaran email untuk mendapatkan promo bulanan.</li>
+<li>Footer Lengkap: Berisi tautan Company, Quick Link.</li>
 </ul>
 <br>
 <h2>⚙️ Teknologi yang Digunakan:</h2>

@@ -27,4 +27,4 @@
 <li>Email: davanalendra2@gmail.com</li>
 </ul>
 <br>
-<p>Link Website: https://web-fashion-store.vercel.app/</p>
+<p>Link Website: https://fashion-store-did.vercel.app/</p>

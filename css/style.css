@@ -169,13 +169,6 @@ body {
   background: #fff;
 }
 
-.section-title {
-  font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 40px;
-  cursor: default
-}
-
 .section-title span {
   position: relative;
   background: #fff100;
@@ -248,9 +241,10 @@ body {
 
 /* Judul Section */
 .section-title {
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 32px;
+  font-weight: 800;
   margin-bottom: 40px;
+  cursor: default
 }
 
 .section-title .highlight {

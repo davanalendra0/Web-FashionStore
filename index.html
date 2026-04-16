@@ -3,13 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fashion Website</title>
+  <meta name="description" content="Explore unique and trendy clothes at FASHION. Shop hoodies, tees, coats, and more. Live for influential and innovative fashion!">
+  <meta property="og:title" content="FASHION – Explore Unique Clothes">
+  <meta property="og:description" content="Shop hoodies, tees, coats & more. Live for influential and innovative fashion!">
+  <meta property="og:type" content="website">
+  <title>FASHION – Explore Unique Clothes | Hoodies, Tees & More</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/jpg" href="asset/img/store.svg">
+  <link rel="icon" type="image/svg" href="asset/img/store.svg">
   <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClothingStore",
+      "name": "FASHION",
+      "description": "Explore unique and trendy clothes — hoodies, tees, coats & more."
+    }
+  </script>
 </head>
 <body>
   <header class="navbar">
@@ -25,114 +37,116 @@
     </nav>
   </header>
 
-  <section class="hero">
-  <div class="hero-text">
-    <h1>
-      LET’S <br />
-      EXPLORE <br />
-      <span class="highlight">UNIQUE</span> <br />
-      CLOTHES.
-    </h1>
-    <p>Live for Influential and Innovative fashion!</p>
-    <button class="shop-btn">Shop Now</button>
-  </div>
-  <div class="hero-image">
-    <img src="asset/img/people1.png" alt="Fashion Model" />
-  </div>
-</section>
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>
+          LET’S <br />
+          EXPLORE <br />
+          <span class="highlight">UNIQUE</span> <br />
+          CLOTHES.
+        </h1>
+        <p>Live for Influential and Innovative fashion!</p>
+        <button class="shop-btn">Shop Now</button>
+      </div>
+      <div class="hero-image">
+        <img src="asset/img/people1.png" alt="Fashion Model" />
+      </div>
+    </section>
 
-<section class="brand-logos">
-  <img src="asset/img/hm.png" alt="H&M" />
-  <img src="asset/img/obey.png" alt="Obey" />
-  <img src="asset/img/shopify.png" alt="Shopify" />
-  <img src="asset/img/lacoste.png" alt="Lacoste" />
-  <img src="asset/img/levis.png" alt="Levi's" />
-  <img src="asset/img/amazon.png" alt="Amazon" />
-</section>
+    <section class="brand-logos">
+      <img src="asset/img/hm.png" alt="H&M" />
+      <img src="asset/img/obey.png" alt="Obey" />
+      <img src="asset/img/shopify.png" alt="Shopify" />
+      <img src="asset/img/lacoste.png" alt="Lacoste" />
+      <img src="asset/img/levis.png" alt="Levi's" />
+      <img src="asset/img/amazon.png" alt="Amazon" />
+    </section>
 
-<section class="new-arrivals">
-  <h2 class="section-title">
-    NEW <span>ARRIVALS</span>
-  </h2>
+    <section class="new-arrivals">
+      <h2 class="section-title">
+        NEW <span>ARRIVALS</span>
+      </h2>
 
-  <div class="product-cards">
-    <!-- Card 1 -->
-    <div class="card">
-      <img src="asset/img/people2.png" alt="Hoodies & Sweatshirt" />
-      <div class="card-info">
-        <h3>Hoodies & Sweetshirt</h3>
-        <div class="explore">
-          <p>Explore Now!</p>
-          <span>&rarr;</span>
+      <div class="product-cards">
+        <!-- Card 1 -->
+        <div class="card">
+          <img src="asset/img/people2.png" alt="Hoodies & Sweatshirt" />
+          <div class="card-info">
+            <h3>Hoodies & Sweetshirt</h3>
+            <div class="explore">
+              <p>Explore Now!</p>
+              <span>&rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <img src="asset/img/people3.png" alt="Coats & Parkas" />
+          <div class="card-info">
+            <h3>Coats & Parkas</h3>
+            <div class="explore">
+              <p>Explore Now!</p>
+              <span>&rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <img src="asset/img/people4.png" alt="Tees & T-Shirt" />
+          <div class="card-info">
+            <h3>Tees & T-Shirt</h3>
+            <div class="explore">
+              <p>Explore Now!</p>
+              <span>&rarr;</span>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Card 2 -->
-    <div class="card">
-      <img src="asset/img/people3.png" alt="Coats & Parkas" />
-      <div class="card-info">
-        <h3>Coats & Parkas</h3>
-        <div class="explore">
-          <p>Explore Now!</p>
-          <span>&rarr;</span>
+    <section class="products-favourite">
+      <h2 class="section-title">
+        Products <span class="highlight">Favourite</span>
+      </h2>
+
+      <div class="favourite-cards">
+        <div class="favourite-card">
+          <img src="asset/img/people5.png" alt="Trending on Instagram">
+          <div class="favourite-content">
+            <h3>Trending on instagram</h3>
+            <div class="explore">
+              <span>Explore Now!</span>
+              <span class="arrow">→</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="favourite-card">
+          <img src="asset/img/people6.png" alt="All Under $40">
+          <div class="favourite-content">
+            <h3>All Under $40</h3>
+            <div class="explore">
+              <span>Explore Now!</span>
+              <span class="arrow">→</span>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Card 3 -->
-    <div class="card">
-      <img src="asset/img/people4.png" alt="Tees & T-Shirt" />
-      <div class="card-info">
-        <h3>Tees & T-Shirt</h3>
-        <div class="explore">
-          <p>Explore Now!</p>
-          <span>&rarr;</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="products-favourite">
-  <h2 class="section-title">
-    Products <span class="highlight">Favourite</span>
-  </h2>
-
-  <div class="favourite-cards">
-    <div class="favourite-card">
-      <img src="asset/img/people5.png" alt="Trending on Instagram">
-      <div class="favourite-content">
-        <h3>Trending on instagram</h3>
-        <div class="explore">
-          <span>Explore Now!</span>
-          <span class="arrow">→</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="favourite-card">
-      <img src="asset/img/people6.png" alt="All Under $40">
-      <div class="favourite-content">
-        <h3>All Under $40</h3>
-        <div class="explore">
-          <span>Explore Now!</span>
-          <span class="arrow">→</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SECTION: Subscribe -->
-<section class="subscribe-section">
-  <h2>JOIN SHOPPING COMMUNITY TO <br> GET MONTHLY PROMO</h2>
-  <p>Type your email down below and be young wild generation</p>
-  <form class="subscribe-form">
-    <input type="email" placeholder="Add your email here" required>
-    <button type="submit">SEND</button>
-  </form>
-</section>
+    <!-- SECTION: Subscribe -->
+    <section class="subscribe-section">
+      <h2>JOIN SHOPPING COMMUNITY TO <br> GET MONTHLY PROMO</h2>
+      <p>Type your email down below and be young wild generation</p>
+      <form class="subscribe-form">
+        <input type="email" placeholder="Add your email here" required>
+        <button type="submit">SEND</button>
+      </form>
+    </section>
+  </main>
 
 <!-- FOOTER -->
 <footer class="footer">
